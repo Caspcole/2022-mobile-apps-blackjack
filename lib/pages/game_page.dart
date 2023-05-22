@@ -70,7 +70,7 @@ class _GamePageState extends State<GamePage> {
 
               Text(
                 "\n" + widget.result + "\n",
-                style: TextStyle(fontSize: 17),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
 
               widget.roundOver

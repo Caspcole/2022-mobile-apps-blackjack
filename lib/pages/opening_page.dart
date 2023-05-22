@@ -26,7 +26,7 @@ class OpeningPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 // TODO Create TextButton for Starting credits
-                Text("Blackjack\n", style: TextStyle(fontSize: 25)),
+                Text("Blackjack\n", style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold)),
                 ElevatedButton(
                     onPressed: () {
                       Navigator.push(
